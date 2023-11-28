@@ -15799,7 +15799,7 @@ body {
     }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 841px) {
     .question-item {
         transition: all 0.3s ease-in-out;
     }
@@ -15822,6 +15822,43 @@ body {
 
     .question4.question-open {
         height: 170px;
+    }
+}
+
+@media (max-width: 840px) {
+    .question-item {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .question-open {
+        height: 170px;
+    }
+
+    .question1.question-open {
+        height: 650px;
+    }
+
+    .question2.question-open {
+        height: 820px;
+    }
+
+    .question3.question-open {
+        height: 620px;
+    }
+
+    .question4.question-open {
+        height: 220px;
+    }
+}
+@media (max-width: 840px) {
+    .aliases-page {
+        padding-top: 50px;
+    }
+    #modal-container2,
+    #modal-container3,
+    #modal-container4 {
+        max-height: 85%;
+        width: 80%;
     }
 }
 
@@ -19407,6 +19444,15 @@ body {
 .application-sidebar-widget-whatsapp:hover {
     background: #15c326;
     border-color: #05b316
+}
+.application-sidebar-widget-telegram {
+    background: #0088cc;
+    border-color: #007ebd;
+}
+
+.application-sidebar-widget-telegram:hover {
+    background: #0077b5;
+    border-color: #007ebd;
 }
 
 @media screen and (min-width:1280px) {
