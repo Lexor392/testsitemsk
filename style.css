@@ -6152,7 +6152,8 @@ body {
 }
 
 .main-page-items {
-    padding: 40px 20px
+    padding: 40px 20px;
+    padding-bottom: 280px;
 }
 
 .main-page-items .section-title {
@@ -13953,7 +13954,7 @@ body {
 }
 
 .main-page-items .catalog-subscribe {
-    order: 0
+    order: 0;
 }
 
 @media screen and (min-width:820px) {
@@ -14181,6 +14182,7 @@ body {
 }
 
 .iwvc_subscribe_wrap {
+    position: relative;
     display: flex;
     flex-direction: column
 }
@@ -20579,5 +20581,48 @@ body {
 @media screen and (min-width:820px) {
     .message-popup .popup-content-wrapper {
         padding: 45px 90px
+    }
+}
+
+@media (max-width:820px) {
+    .main-header .wrapper-wide .main-menu,
+    .main-header .wrapper-wide .header-button {
+        display: none;
+    }
+    .main-header .wrapper-wide {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .main-header .wrapper-wide .application-sidebar-widget-row .btn {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        min-height: auto;
+    }
+    .main-header .wrapper-wide .application-sidebar-widget-row .btn span {
+        display: none;
+    }
+    .main-header .wrapper-wide .application-sidebar-widget-row .btn i {
+        font-size: 36px;
+    }
+    .main-header .wrapper-wide .application-sidebar-widget-row .btn .bi-whatsapp {
+        font-size: 20px;
+    }
+    .main-logo .logo-img {
+        margin-top: -14px;
+        margin-left: -20px;
+    }
+    
+.main-page-items .catalog-subscribe {
+    order: 0;
+    position: absolute;
+    top: 620px;
+}
+}
+@media (min-width:821px) {
+    .wrapper-mid.main-block .btn.show-modal,
+    .main-header .wrapper-wide .application-sidebar-widget-row .btn i  {
+        display: none;
     }
 }
